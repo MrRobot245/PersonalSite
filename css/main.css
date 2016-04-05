@@ -7,7 +7,7 @@ html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h
 	font: inherit;
 	text-decoration:none;
 	list-style:none;
-	
+
 }
 
 a,a:active,a:hover {outline: none;}
@@ -36,8 +36,8 @@ body{
 	color:#999999;
 	overflow-x:hidden;
 	font-size:13px;
-	
-	
+
+
 }
 
 
@@ -53,8 +53,8 @@ a, .contactForm input.submit, #toTop i{
 
 
 
-.teaserTitle h2, .captions p , .secTitle p , .innerTitle p,  
- .textWidget p, .servDesc p, .testimoniaContainer blockquote, .testimoniaContainer h3, 
+.teaserTitle h2, .captions p , .secTitle p , .innerTitle p,
+ .textWidget p, .servDesc p, .testimoniaContainer blockquote, .testimoniaContainer h3,
  ul#category li, .tweet p, .tweets .tweet_list, .bottom p , .bottom ul , .contactForm [type="text"], .contactForm textarea ,
  .contactForm textarea {
 	font-family: 'robotoregular', Arial,sans-serif;;
@@ -97,7 +97,7 @@ p{
     top: 0;
     width: 100%;
     z-index: 9999;
-	
+
 }
 
 
@@ -151,7 +151,7 @@ p{
 	padding-right:15px;
 	margin:0 auto;
 	position:relative;
-	
+
 }
 
 
@@ -165,7 +165,7 @@ header{
 	top:0;
 	left:0;
 	z-index:1000;
-	color:#ffffff;	
+	color:#ffffff;
 
 }
 
@@ -181,7 +181,7 @@ nav#mainNav li {
 	display: inline-block;
 	font-size: 12px;
 	text-transform:uppercase;
-	
+
 }
 
 
@@ -241,7 +241,7 @@ nav#mainNav  .active{
 	color:#ffffff;
 	background:url(../images/sliderImages/parallax.jpg) ;
 	height:717px;
-	text-align:center;	
+	text-align:center;
 	background-position: center top;
 	background-repeat: repeat-y;
 	background-size: cover;
@@ -254,7 +254,7 @@ nav#mainNav  .active{
 
 .teaserTitle {
     margin-top: 350px;
-	
+
 }
 
 .teaserTitle h1 {
@@ -295,7 +295,7 @@ nav#mainNav  .active{
 	font-size:22px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	
+
 }
 
 
@@ -379,7 +379,7 @@ nav#mainNav  .active{
 
 
 .column{
-	float:left;	
+	float:left;
 }
 
 .top{
@@ -477,7 +477,7 @@ nav#mainNav  .active{
     padding: 5px;
     width: 200px;
 	margin:0 auto;
-	
+
 }
 
 .imgProfile:before {
@@ -540,7 +540,7 @@ nav#mainNav  .active{
 	font-size:14px;
 	margin:0 -13px;
 	font-family: 'robotomedium', Arial,sans-serif;
-	
+
 }
 
 
@@ -553,8 +553,8 @@ nav#mainNav  .active{
 	-ms-border-radius: 100px;
 	-o-border-radius: 100px;
 	/* Prevent background color leak outs */
-	 -webkit-background-clip: padding-box; 
-	 -moz-background-clip:padding; 
+	 -webkit-background-clip: padding-box;
+	 -moz-background-clip:padding;
 	 background-clip:padding-box;
     color: #FFFFFF;
     display:block;
@@ -659,6 +659,7 @@ nav#mainNav  .active{
 
 
 .percent90 {width: 90%;}
+.percent75 {width: 75%;}
 .percent50 {width: 70%;}
 .percent60 {width: 60%;}
 .percent80 {width: 80%;}
@@ -673,7 +674,7 @@ nav#mainNav  .active{
 }
 
 .textWidget h1{
-	
+
    color: #2D2D2D;
    font-size: 20px;
    margin-bottom:10px;
@@ -681,7 +682,7 @@ nav#mainNav  .active{
 }
 
 .textWidget p{
-	
+
    font-size: 14px;
    line-height:22px;
 
@@ -693,7 +694,7 @@ nav#mainNav  .active{
 	border:1px solid #efefef;
 	padding:20px;
 
-	
+
 }
 
 .address {
@@ -705,7 +706,7 @@ nav#mainNav  .active{
 	color: #2d2d2d;
 	padding-top: 40px;
 	padding-bottom: 60px;
-	
+
 }
 
 
@@ -718,8 +719,8 @@ nav#mainNav  .active{
 	-ms-border-radius: 100px;
 	-o-border-radius: 100px;
 	/* Prevent background color leak outs */
-	 -webkit-background-clip: padding-box; 
-	 -moz-background-clip:padding; 
+	 -webkit-background-clip: padding-box;
+	 -moz-background-clip:padding;
 	 background-clip:padding-box;
     color: #FFFFFF;
     display: inline-block;
@@ -749,7 +750,7 @@ nav#mainNav  .active{
 	display:inline-block;
 	width:200px;
 	position:relative;
-	
+
 }
 
 .info ul{
@@ -765,8 +766,8 @@ nav#mainNav  .active{
 	-ms-border-radius: 100px;
 	-o-border-radius: 100px;
 	/* Prevent background color leak outs */
-	 -webkit-background-clip: padding-box; 
-	 -moz-background-clip:padding; 
+	 -webkit-background-clip: padding-box;
+	 -moz-background-clip:padding;
 	 background-clip:padding-box;
     color: #FFFFFF;
     display: inline-block;
@@ -851,8 +852,8 @@ nav#mainNav  .active{
 	-ms-border-radius: 100px;
 	-o-border-radius: 100px;
 	/* Prevent background color leak outs */
-	 -webkit-background-clip: padding-box; 
-	 -moz-background-clip:padding; 
+	 -webkit-background-clip: padding-box;
+	 -moz-background-clip:padding;
 	 background-clip:padding-box;
     color: #FFFFFF;
     display: inline-block;
@@ -875,7 +876,7 @@ nav#mainNav  .active{
 	background:#fafafa;
 	border-top:1px solid #efefef;
 	padding:30px 0;
-	
+
 }
 
 .cta p{
@@ -886,7 +887,7 @@ nav#mainNav  .active{
 }
 
 .cta a{
-	
+
 	color:#92C14D;
 }
 
@@ -915,7 +916,7 @@ nav#mainNav  .active{
 .testimoniaContainer {
     border-top: 1px solid #EFEFEF;
     color: #0F2B37;
-    
+
 }
 
 
@@ -1034,8 +1035,8 @@ ul#category li {
 	-ms-border-radius: 3px;
 	-o-border-radius: 3px;
 
-	
-	
+
+
 }
 
 
@@ -1051,7 +1052,7 @@ ul#category li a {
 	-o-border-radius: 3px;
 	background:#ffffff;
 	border:1px solid #2d2d2d;
-	
+
 }
 
 ul#category li a:hover{
@@ -1065,7 +1066,7 @@ ul#category li a:hover{
 
 #works .portfolio {
 	margin-left:20px;
-    
+
 }
 
 
@@ -1141,8 +1142,8 @@ ul#category li a:hover{
 	-ms-border-radius: 100px;
 	-o-border-radius: 100px;
 	/* Prevent background color leak outs */
-	 -webkit-background-clip: padding-box; 
-	 -moz-background-clip:padding; 
+	 -webkit-background-clip: padding-box;
+	 -moz-background-clip:padding;
 	 background-clip:padding-box;
     color: #FFFFFF;
     display: inline-block;
@@ -1351,8 +1352,8 @@ ul#category li a:hover{
     top: 310px;
     width: 20%;
 	/* Prevent background color leak outs */
-	 -webkit-background-clip: padding-box; 
-	 -moz-background-clip:padding; 
+	 -webkit-background-clip: padding-box;
+	 -moz-background-clip:padding;
 	 background-clip:padding-box;
 }
 
@@ -1398,16 +1399,16 @@ ul#category li a:hover{
 
 
 #footer{
-	
+
 	background:#333333;
 	position:relative;
-	
+
 }
 
 
 .ftTop{
 	padding:40px 0;
-	
+
 }
 
 .feed{
@@ -1439,8 +1440,8 @@ ul#category li a:hover{
 	-ms-border-radius: 100px;
 	-o-border-radius: 100px;
 	/* Prevent background color leak outs */
-	 -webkit-background-clip: padding-box; 
-	 -moz-background-clip:padding; 
+	 -webkit-background-clip: padding-box;
+	 -moz-background-clip:padding;
 	 background-clip:padding-box;
     color: #2d2d2d;
     display: inline-block;
@@ -1487,8 +1488,8 @@ ul#category li a:hover{
 	-ms-border-radius: 100px;
 	-o-border-radius: 100px;
 	/* Prevent background color leak outs */
-	 -webkit-background-clip: padding-box; 
-	 -moz-background-clip:padding; 
+	 -webkit-background-clip: padding-box;
+	 -moz-background-clip:padding;
 	 background-clip:padding-box;
 	display:inline-block;
 }
@@ -1513,7 +1514,7 @@ ul#category li a:hover{
     float: left;
     font-size: 13px;
 	color:#666666;
-    
+
 }
 .bottom p span {
     color: #ffffff;
@@ -1531,7 +1532,7 @@ ul#category li a:hover{
 }
 
 
-.bottom li a { 
+.bottom li a {
     color: #666666;
 }
 
@@ -1615,47 +1616,47 @@ ul#category li a:hover{
 	.captions p{font-family: 'robotomedium', Arial,sans-serif;}
 	.getBtn {left: 4.7%;}
 	.followBtn{right:4.7%;}
-	
-	
-	
+
+
+
 	.skills, .textWidget{width:700px;}
 	.textWidget{margin-left:0;}
 	.skills.column, .textWidget.column{float:none;}
-	
-	
+
+
 	.address p{font-size:22px;}
-	
-	
+
+
 	.em, .ed{width:259px;}
 	.emIco, .edIco{left:-8%;}
 
 	.testimoniaContainer .testimonialContent{height:270px;}
 	.testimoniaContainer .testimonialContent div, .testimoniaContainer .testimonialContent{width:700px;}
-	
 
-	
+
+
 	#works .portfolio{margin-left:38px;}
 	.folioImg img{width:290px;height:200px;}
-	
-	
-		
+
+
+
 	.contactForm{margin-left:15px;}
 	.inputBox,.contactForm [type="text"]{width:200px;}
 	.inputBox{margin:0 25px 15px 0;}
 	.contactForm textarea{width:655px;}
 	.contactForm input.submit {top: 315px;width: 25.6%;left:66%;}
-	
-	
+
+
 }
 
 
 /* Mobile Landscape Size -> Tablet Portrait size*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
 	html{-webkit-text-size-adjust: none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
 	.clientContainer,.testimoniaContainer ,#teaser{background-attachment: scroll;background-position:top center !important;background-size: cover;}
-	
+
 	.holder960,.testimonialContent{width:400px;}
 	nav#mainNav li a {padding: 25px 12px;}
 	.secTitle{margin-top: -2px;}
@@ -1667,27 +1668,27 @@ ul#category li a:hover{
 	.teaserTitle h1{font-size:36px;}
 	.innerTitle h1{font-size:25px;}
 	#loaderInner {margin: -50px 0 0 -55px;}
-	
-	
+
+
 	.followBtn {right: -14%;}
 	.getBtn {left: -12%;}
 	.address p{line-height:35px;}
-	
-	
-	
+
+
+
 	.divider{width:400px;}
 	.textWidget.column,.skills.column, .inputBox,.share,.feed, .bottom p, .bottom ul{float:none;}
 	.ed:last-child, .em:last-child{margin-bottom:0;}
 	.em, .ed{margin-bottom:40px;}
 	.emIco, .edIco{left:-5.5%;}
 	.emDesc, .edDesc{width:310px;}
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 	.skillsHolder{margin-left:0;}
 	.textWidget {margin-left:0px;width: 400px;}
 	.skills {width: 400px;}
@@ -1709,26 +1710,26 @@ ul#category li a:hover{
 	.info ul{margin-top:50px;padding:0;}
 	.share, .bottom ul, .bottom p{text-align:center;}
 	.bottom ul{margin-top:5px;}
-	
-	
-	
+
+
+
 }
 
 
 /* Mobile Portrait Size -> Mobile Landscape Size */
 @media only screen and (max-width:479px) {
-	
+
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
 	html{-webkit-text-size-adjust: none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
 	.testimoniaContainer,#teaser {background-attachment: scroll;background-position:top center !important;background-size: cover;}
-	
-	
+
+
 	.holder960,.testimonialContent{width:230px;}
 	#loaderInner {margin: -50px 0 0 -55px;}
 	header{padding-top:20px;}
-	
-	
-	
+
+
+
 	nav#mainNav{margin-right:0;margin-top:55px;padding-bottom:8px;}
 	nav#mainNav ul{display:none;padding-bottom: 8px;padding-left: 5px;}
 	nav#mainNav li{float:none; display:block;}
@@ -1736,83 +1737,83 @@ ul#category li a:hover{
 	.mobileBtn {display: inline-block;float: right;margin-bottom: 16px;margin-right: 95px;margin-top: -50px;position: relative;}
 	.teaserTitle h1{font-size:35px;}
 	.teaserTitle {margin-top: 220px;}
-	
+
 	#teaser, #teaser .overlay{height:500px;}
 	.teaserTitle h1:before{margin-left:-160px;width:35px;top:52px;}
 	.teaserTitle h1:after{margin-right:-160px;width:35px;top:52px;}
 	.captions p{font-family: 'robotomedium', Arial,sans-serif;}
-	
-	
-	
+
+
+
 	.userProfile {margin-bottom: 100px;margin-top: 150px;}
 	.imgProfile:before, .imgProfile:after{border:none;}
 	.getBtn {left: 23.2%;top: 107.5%;}
 	.followBtn {right: 23.2%;top: -50.5%;}
-	
-	
+
+
 	.address p{line-height:35px;}
-	
-	
+
+
 	.secTitle p{padding:0 30px;}
-	
+
 	.divider{width:230px;}
 	.inputBox,.share,.feed, .bottom p, .bottom ul,
 	#works .item, .skills.column, .textWidget.column, .em.column, .ed.column{float:none !important;}
-	
-	
-	
+
+
+
 	.em, .ed{width:220px;margin-right:0;margin-left:0;}
 	.em, .ed{margin-bottom:40px;}
 	.emIco, .edIco{left:-9%;}
 	.ed:last-child, .em:last-child{margin-bottom:0;}
-	
+
 	.team{width:190px;margin:0;}
 
-	
-	
-	
-	
+
+
+
+
 	.skillsHolder{margin-left:0;}
 	.textWidget {margin-left:0px;width: 230px;}
 	.skills {width: 230px;}
-	
-	
-	
-	
+
+
+
+
 
 	.cta p{padding:0 65px;line-height:35px;}
 
-	
-	
+
+
 	#testimonials .overlay{height:500px;}
 	#client .overlay{height:400px;}
-	
+
 	.testimoniaContainer .testimonialContent{height:430px;}
 	.testimoniaContainer .testimonialContent div{width:230px;}
-	
 
-	
-	
+
+
+
 	ul#category li{display:block;}
 	ul#category li a{margin-right:0;margin-bottom:12px;padding:10px 30px;}
 	#works .portfolio{margin-left:-5px;}
 	#works .item {width:230px;margin-right:0;}
 	.folioImg img{height:170px;}
-	
-	
+
+
 
 	/*From the multiple page*/
 	.singleSlider{width:230px;}
 	.singleDesc{width:230px;margin-bottom:30px;}
-		
-	
+
+
 	.contactForm{margin-left:19px;}
 	.contactForm input.submit {left: 7%;top: 524px;width: 78.6%;}
 	.inputBox{width:230px;}
 	.contactForm textarea{width:181px;}
 	.contactForm [type="text"]{width:180px;}
-	
-	
+
+
 	.info li{height:100px;width:185px;}
 	.info li:last-child{height:50px;}
 	.info li .ico{top:-70px;}
@@ -1822,8 +1823,8 @@ ul#category li a:hover{
 	.share, .bottom ul, .bottom p{text-align:center;}
 	.bottom ul{margin-top:5px;}
 	.bottom p{font-size:12px;}
-	
-	
+
+
 }
 
 
