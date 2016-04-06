@@ -10,7 +10,15 @@ html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h
 
 }
 
-a,a:active,a:hover {outline: none;}
+a,a:active{
+	outline: none;
+	color:#999999;
+
+}
+
+a:hover{
+	color:#99C56F;
+}
 img{max-width:100%;}
 
 iframe {
@@ -39,6 +47,7 @@ body{
 
 
 }
+
 
 
 /*Shared css rules*/
@@ -135,7 +144,23 @@ p{
 
 
 
+.button {
+    background-color: #2D2D2D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+		border-radius: 8px;
+		cursor: pointer;
+}
+.button:hover{
 
+    background-color: #666262;
+
+}
 /*Wrapper*/
 #wrapper{
 	position:relative;
@@ -1067,6 +1092,7 @@ ul#category li a:hover{
 #works .portfolio {
 	margin-left:20px;
 
+
 }
 
 
@@ -1278,7 +1304,7 @@ ul#category li a:hover{
 /*Contact*/
 
 #contact .secTitle{
-	background:#ffbe00;
+	background:#99C56F;
 }
 
 
