@@ -1,10 +1,10 @@
 //------------------------------------- Waiting for the entire site to load ------------------------------------------------//
 
-jQuery(window).load(function() { 
+jQuery(window).load(function() {
 		jQuery("#loaderInner").fadeOut();
 		jQuery("#loader").delay(400).fadeOut("slow");
 		jQuery("#loaderInner p").removeClass("loading");
-				
+
 });
 
 
@@ -12,8 +12,8 @@ jQuery(window).load(function() {
 
 
 $(document).ready(function(){
-	
-	
+
+
 //------------------------------------- Navigation setup ------------------------------------------------//
 
 
@@ -22,18 +22,18 @@ $(document).ready(function(){
 
 $("#mainNav ul a,.cta a").click(function(e){
 
-	
+
 	var full_url = this.href;
 	var parts = full_url.split("#");
 	var trgt = parts[1];
 	var target_offset = $("#"+trgt).offset();
 	var target_top = target_offset.top;
-	
+
 
 
 	$('html,body').animate({scrollTop:target_top -66}, 800);
 		return false;
-	
+
 });
 
 
@@ -55,8 +55,8 @@ $("#mainNav ul a,.cta a").click(function(e){
 			},
 			offset: '35%'
 		});
-		
-		
+
+
 //------------------------------------- End navigation setup ------------------------------------------------//
 
 
@@ -78,7 +78,7 @@ $('.testimoniaContainer .testimonialContent .icoQuote').css({opacity:0.2});
 		$('a.prev').magnificPopup({
 		  type: 'image'
 		});
-		
+
 
 //-------------------------- End magnificPopup ----------------------------//
 
@@ -86,18 +86,18 @@ $('.testimoniaContainer .testimonialContent .icoQuote').css({opacity:0.2});
 	var $portfolioClone = $('.portfolio').clone();
 
 	$('.filter a').click(function(e){
-		$('.filter li').removeClass('current');	
+		$('.filter li').removeClass('current');
 		var $filterClass = $(this).parent().attr('class');
 		if ( $filterClass == 'all' ) {
 			var $filteredPortfolio = $portfolioClone.find('li');
 		} else {
 			var $filteredPortfolio = $portfolioClone.find('li[data-type~=' + $filterClass + ']');
 		}
-		$('.portfolio').quicksand( $filteredPortfolio, { 
+		$('.portfolio').quicksand( $filteredPortfolio, {
 			duration: 800,
-			easing: 'easeInOutQuad' 
+			easing: 'easeInOutQuad'
 		}, function(){
-			
+
 
 
 //------------------------------ Reinitilaizing magnificPopup ----------------------------//
@@ -108,7 +108,7 @@ $('.testimoniaContainer .testimonialContent .icoQuote').css({opacity:0.2});
 		    enabled:true
 		  }
 		});
-		
+
 
 //-------------------------- End einitilaizing magnificPopup ----------------------------//
 
@@ -128,33 +128,33 @@ $('.testimoniaContainer .testimonialContent .icoQuote').css({opacity:0.2});
 
 
 
-$('#submit').click(function(){ 
+$('#submit').click(function(){
 
 	$('input#name').removeClass("errorForm");
 	$('textarea#message').removeClass("errorForm");
 	$('input#email').removeClass("errorForm");
-	
-	var error = false; 
-	var name = $('input#name').val(); 
-	if(name == "" || name == " ") { 
-		error = true; 
+
+	var error = false;
+	var name = $('input#name').val();
+	if(name == "" || name == " ") {
+		error = true;
 		$('input#name').addClass("errorForm");
 	}
-	
-	
-		var msg = $('textarea#message').val(); 
+
+
+		var msg = $('textarea#message').val();
 		if(msg == "" || msg == " ") {
 			error = true;
 			$('textarea#message').addClass("errorForm");
-			
+
 		}
-	
-	var email_compare = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i; 
-	var email = $('input#email').val(); 
-	if (email == "" || email == " ") { 
+
+	var email_compare = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
+	var email = $('input#email').val();
+	if (email == "" || email == " ") {
 		$('input#email').addClass("errorForm");
 		error = true;
-	}else if (!email_compare.test(email)) { 
+	}else if (!email_compare.test(email)) {
 		$('input#email').addClass("errorForm");
 		error = true;
 	}
@@ -163,14 +163,14 @@ $('#submit').click(function(){
 		return false;
 	}
 
-	var data_string = $('.contactForm form').serialize(); 
-	
+	var data_string = $('.contactForm form').serialize();
+
 
 	$.ajax({
 		type: "POST",
 		url: $('.contactForm form').attr('action'),
 		data: data_string,
-		
+
 		success: function(message) {
 				if(message == 'SENDING'){
 					$('#success').fadeIn('slow');
@@ -179,12 +179,12 @@ $('#submit').click(function(){
 					$('#error').fadeIn('slow');
 				}
 					}
-					
-					
-					
+
+
+
 	});
 
-	return false; 
+	return false;
 });
 
 
@@ -202,12 +202,12 @@ $('.mobileBtn').click(function() {
 			$('#mainNav ul').css({"display":"block"});
 			fade=true;
 			return false;
-			
+
 		}else{
-		
+
 			$('#mainNav ul').slideUp("faste");
 			fade=false;
-			return false;	
+			return false;
 		}
 });
 
@@ -217,7 +217,7 @@ $('.mobileBtn').click(function() {
 
 //--------------------------------- Parallax --------------------------------//
 
-$("#teaser").parallax("100%", 0.3);	
+$("#teaser").parallax("100%", 0.3);
 $(".testimoniaContainer").parallax("100%", 0.3);
 
 
@@ -289,4 +289,3 @@ $().UItoTop({ easingType: 'easeOutQuart' });
 
 
 });
-
