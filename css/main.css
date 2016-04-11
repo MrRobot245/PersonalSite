@@ -1182,6 +1182,9 @@ ul#category li a:hover{
     top: 58px;
     width: 35px;
 }
+.myDesc a {
+
+}
 
 
 .workDesc a:hover{
@@ -1849,6 +1852,38 @@ ul#category li a:hover{
 	.share, .bottom ul, .bottom p{text-align:center;}
 	.bottom ul{margin-top:5px;}
 	.bottom p{font-size:12px;}
+
+	/* =============================================================
+	SERVICES SECTION STYLES
+	============================================================ */
+
+	#services .services-wrapper {
+	padding: 20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-bottom: 40px;
+	background-color: rgba(255, 255, 255, 0.07);
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	}
+
+	#services .services-wrapper:hover {
+	background-color: rgba(255, 255, 255, 0.20);
+	}
+
+	#services h3 {
+	font-family: 'Oswald', sans-serif;
+	}
+
+	#services .services-wrapper i {
+	margin: 5px;
+	color: rgb(228, 79, 79);
+	font-size: 60px;
+	}
 
 
 }
