@@ -240,7 +240,7 @@ jQuery(function ($) {
 
         var iframe = document.getElementById('nofocusvideo');
         // $f == Froogaloop
-        var player = $f(iframe);
+        // var player = $f(iframe);
 
         $('.modal').on('hidden.bs.modal', function () {
         player.api('pause');
