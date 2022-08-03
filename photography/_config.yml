@@ -1,8 +1,8 @@
 # Base configs
 baseurl: "https://nreymer.ca/photography/"
-image_fulls_loc: "/images/fulls"
-image_thumbs_loc: "/images/thumbs"
-google_analytics: "UA-46465113-2"
+image_fulls_loc: "images/fulls"
+image_thumbs_loc: "images/thumbs"
+google_analytics: "UA-83227708-2"
 
 # UI configs
 title: "Photography by Nathan Reymer"
