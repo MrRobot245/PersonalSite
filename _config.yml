@@ -2,8 +2,8 @@
 # baseurl: "https://nreymer.ca/"
 image_fulls_loc: "images/fulls"
 image_thumbs_loc: "images/thumbs"
-google_analytics: "UA-83227708-2"
-exif_display: '[{"tag": "Model", "icon": "camera-retro"}, {"tag": "FNumber", "icon": "dot-circle-o"}, {"tag": "ExposureTime", "icon": "clock-o"}, {"tag": "ISOSpeedRatings", "icon": "info-circle"}]'
+# google_analytics: "UA-83227708-2"
+# exif_display: '[{"tag": "Model", "icon": "camera-retro"}, {"tag": "FNumber", "icon": "dot-circle-o"}, {"tag": "ExposureTime", "icon": "clock-o"}, {"tag": "ISOSpeedRatings", "icon": "info-circle"}]'
 
 
 # UI configs
