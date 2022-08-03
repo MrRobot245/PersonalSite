@@ -7,12 +7,12 @@ image_thumbs_loc: "images/thumbs"
 
 
 # UI configs
-# title: "Photography by Nathan Reymer"
-# subtitle: "See the world through my eyes!"
-# author: "Nathan Reymer"
-# header:
-#  title: "Photography"
-#  subtitle: "by Nathan Reymer"
+title: ""
+subtitle: ""
+author: ""
+header:
+ title: ""
+ subtitle: ""
 
 
 footer:
