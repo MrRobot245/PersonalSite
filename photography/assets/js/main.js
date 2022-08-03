@@ -316,6 +316,9 @@
                 if (info === "aperture") {
                     template += '<i class="fa fa-dot-circle-o" aria-hidden="true"></i> f/' + exif["aperture"] + '&nbsp;&nbsp;';
                 }
+                if (info === "focal") {
+                    template += '<i class="fa fa-futbol-o" aria-hidden="true"></i> ' + exif["focal"] + '&nbsp;&nbsp;';
+                }
                 if (info === "shutter_speed") {
                     template += '<i class="fa fa-clock-o" aria-hidden="true"></i> ' + exif["shutter_speed"] + '&nbsp;&nbsp;';
                 }
@@ -335,6 +338,9 @@
 
             if (EXIF.getTag(img, "FNumber") !== undefined) {
                 exifData.aperture = EXIF.getTag(img, "FNumber");
+            }
+            if (EXIF.getTag(img, "FocalLength") !== undefined) {
+                exifData.focal = parseInt(EXIF.getTag(img, "FocalLength"));
             }
 
             if (EXIF.getTag(img, "ExposureTime") !== undefined) {
