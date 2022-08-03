@@ -1,5 +1,5 @@
 # Base configs
-baseurl: "https://nreymer.ca/photography/"
+baseurl: "https://nreymer.ca/"
 image_fulls_loc: "images/fulls"
 image_thumbs_loc: "images/thumbs"
 google_analytics: "UA-83227708-2"
