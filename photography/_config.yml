@@ -1,7 +1,7 @@
 # Base configs
 baseurl: "https://nreymer.ca/photography/"
-image_fulls_loc: "photography/images/fulls"
-image_thumbs_loc: "photography/images/thumbs"
+image_fulls_loc: "/images/fulls"
+image_thumbs_loc: "/images/thumbs"
 google_analytics: "UA-46465113-2"
 
 # UI configs

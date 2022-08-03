@@ -5,7 +5,7 @@ module.exports = function (grunt) {
         uglify: {
             files: { 
                 src: 'assets/js/*.js',  // source files mask
-                dest: 'dist/',    // destination folder
+                dest: 'dist/assets/js/',    // destination folder
                 expand: true,    // allow dynamic building
                 flatten: false,   // remove all unnecessary nesting
                 ext: '.min.js'   // replace .js to .min.js
@@ -37,7 +37,7 @@ module.exports = function (grunt) {
                 compass: false
               },
               files: {
-                ' assets/js/main.js':' assets/sass/main.scss'
+                ' assets/css/main.css':' assets/sass/main.scss'
             }
           },
         watch: {
